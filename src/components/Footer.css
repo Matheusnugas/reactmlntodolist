@@ -10,11 +10,21 @@ footer {
     position: fixed;
     bottom: 0;
     text-align: center;
-    color: #772CE8;
+    color: #fff;
     font-weight: bolder;
 }
 
 footer img {
     margin-left: 25px;
     width: 25px;
+}
+
+footer a {
+    text-decoration:underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
+
+footer a {
+    color: #772CE8;
 }

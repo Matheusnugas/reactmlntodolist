@@ -59,8 +59,15 @@ ul {
 }
 
 span {
-    color: white;
+    color: #fff;
     font-weight: bolder;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    text-decoration-color: #772CE8;
+    text-decoration-thickness: 3px;
 }
 
   .content {

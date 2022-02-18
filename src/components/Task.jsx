@@ -31,9 +31,13 @@ const Task = (props) => {
   };
 
   const handleDone = (event) => {
-    event.target.style.textDecoration === "line-through"
-      ? (event.target.style.textDecoration = "none")
-      : (event.target.style.textDecoration = "line-through");
+    if (event.target.classList.contains("done")) {
+      event.target.classList.remove("done");
+      event.target.classList.add("notDone");
+    } else {
+      event.target.classList.add("done");
+      event.target.classList.remove("notDone");
+    }
   };
 
   return edit ? (
@@ -54,7 +58,9 @@ const Task = (props) => {
     </li>
   ) : (
     <li className="taskItem">
-      <span onClick={handleDone}>{taskTodo.todo}</span>
+      <span className="notDone" onClick={handleDone}>
+        {taskTodo.todo}
+      </span>
       <div className="buttonWrap">
         <button className="liButton" onClick={deleteTask}>
           Delete Task

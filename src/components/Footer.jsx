@@ -6,7 +6,12 @@ import linkedinLogo from "../images/linkedin.png";
 function Footer() {
   return (
     <footer>
-      <p>Code by Matheus Luz Nugas</p>
+      <p>
+        Code by{" "}
+        <span>
+          <a href="https://matheusnugasdev.vercel.app/">Matheus Luz Nugas</a>
+        </span>
+      </p>
       <a href="https://github.com/Matheusnugas">
         <img src={githubIcon} alt="githubIcon" />
       </a>
