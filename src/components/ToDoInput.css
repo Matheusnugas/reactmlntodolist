@@ -1,0 +1,38 @@
+.inputMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.inputMain label {
+    color: white;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+.inputMain input {
+    margin-top: 5px;
+    width: 300px;
+    margin-left: 20px;
+    border-style: none;
+    background-color: #1D1C21;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: #772CE8;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.inputMain button {
+    align-self: center;
+    margin-top: 5px;
+    width: 15%;
+    background-color: #772CE8;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}

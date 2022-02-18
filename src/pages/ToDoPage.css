@@ -1,0 +1,108 @@
+body {
+    background-color: #18181B;
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    width: 300px;
+}
+
+.logoWrap {
+    position: absolute;
+    margin: auto;
+    top: 160px;
+    left: 50px;
+    height: 50vh;
+    width: 90vh;
+}
+
+.toDoListMain {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50vh;
+    width: 90vh;
+    border: 2px solid #772CE8;
+    border-radius: 15px;
+    background: #1D1C21;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 10px;
+    border-color: inherit;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+
+ul {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+span {
+    color: white;
+    font-weight: bolder;
+}
+
+  .content {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+  }
+
+.listDiv {
+    width: 80%;
+    margin: auto;
+}
+
+.liButton {
+    align-self: center;
+    /* width: 15%; */
+    background-color: #772CE8;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.buttonWrap {
+    margin-left: auto;
+}
+
+#editInput {
+    border-style: none;
+    background-color: #1D1C21;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: #772CE8;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+input:focus {
+    outline: 1px solid #772CE8
+}
